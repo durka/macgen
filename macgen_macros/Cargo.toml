@@ -1,0 +1,16 @@
+[package]
+name = "macgen_macros"
+version = "0.1.0"
+authors = ["Alex Burka <aburka@seas.upenn.edu>"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "0.12"
+quote = "0.4"
+lazy_static = "1.0"
+
+[build-dependencies]
+foreman = "0.4"
+
